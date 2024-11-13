@@ -21,6 +21,7 @@ const config: Config = {
         brown: "#88645F",
       },
       borderWidth: {
+        '16': '16px',
         '32': '32px',
       },
     },
