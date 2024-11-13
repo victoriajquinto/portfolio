@@ -583,6 +583,33 @@ video {
 .top-0 {
   top: 0px;
 }
+.-left-1\/2 {
+  left: -50%;
+}
+.-right-1\/2 {
+  right: -50%;
+}
+.left-1\/4 {
+  left: 25%;
+}
+.left-\[\] {
+  left: ;
+}
+.left-\[10\%\] {
+  left: 10%;
+}
+.right-\[\] {
+  right: ;
+}
+.right-\[10\%\] {
+  right: 10%;
+}
+.left-\[15\%\] {
+  left: 15%;
+}
+.right-\[15\%\] {
+  right: 15%;
+}
 .z-10 {
   z-index: 10;
 }
@@ -608,6 +635,9 @@ video {
 }
 .flex {
   display: flex;
+}
+.hidden {
+  display: none;
 }
 .h-1\/2 {
   height: 50%;
@@ -648,6 +678,15 @@ video {
 .h-2\/3 {
   height: 66.666667%;
 }
+.h-\[150px\] {
+  height: 150px;
+}
+.h-\[90\%\] {
+  height: 90%;
+}
+.h-\[80\%\] {
+  height: 80%;
+}
 .w-0 {
   width: 0px;
 }
@@ -684,6 +723,27 @@ video {
 .w-72 {
   width: 18rem;
 }
+.w-\[150px\] {
+  width: 150px;
+}
+.w-\[100\%\] {
+  width: 100%;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[90\%\] {
+  width: 90%;
+}
+.w-\[100px\] {
+  width: 100px;
+}
+.w-\[300px\] {
+  width: 300px;
+}
+.w-\[300\%\] {
+  width: 300%;
+}
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -708,6 +768,12 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -744,17 +810,56 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+.bg-gray-300\/50 {
+  background-color: rgb(209 213 219 / 0.5);
+}
+.bg-gray-300\/60 {
+  background-color: rgb(209 213 219 / 0.6);
+}
+.bg-gray-300\/70 {
+  background-color: rgb(209 213 219 / 0.7);
+}
+.bg-peach {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 191 164 / var(--tw-bg-opacity));
+}
+.bg-peach\/50 {
+  background-color: rgb(246 191 164 / 0.5);
+}
+.bg-peach\/80 {
+  background-color: rgb(246 191 164 / 0.8);
+}
+.bg-peach\/90 {
+  background-color: rgb(246 191 164 / 0.9);
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .p-10 {
   padding: 2.5rem;
 }
 .p-8 {
   padding: 2rem;
 }
+.p-4 {
+  padding: 1rem;
+}
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 .pt-20 {
   padding-top: 5rem;
+}
+.pt-0 {
+  padding-top: 0px;
+}
+.pt-10 {
+  padding-top: 2.5rem;
 }
 .text-center {
   text-align: center;
@@ -765,6 +870,10 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .font-semibold {
   font-weight: 600;
@@ -1028,6 +1137,10 @@ video {
 }
 @media (min-width: 640px) {
 
+  .sm\:visible {
+    visibility: visible;
+  }
+
   .sm\:absolute {
     position: absolute;
   }
@@ -1039,6 +1152,34 @@ video {
 
   .sm\:left-1\/2 {
     left: 50%;
+  }
+
+  .sm\:left-\[\] {
+    left: ;
+  }
+
+  .sm\:left-\[\%\] {
+    left: %;
+  }
+
+  .sm\:left-\[\$15\] {
+    left: $15;
+  }
+
+  .sm\:left-\[15\] {
+    left: 15;
+  }
+
+  .sm\:left-\[15\%\] {
+    left: 15%;
+  }
+
+  .sm\:right-\[15\%\] {
+    right: 15%;
+  }
+
+  .sm\:block {
+    display: block;
   }
 
   .sm\:flex {
@@ -1057,6 +1198,18 @@ video {
     height: 50%;
   }
 
+  .sm\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .sm\:h-\[00px\] {
+    height: 00px;
+  }
+
+  .sm\:h-\[300px\] {
+    height: 300px;
+  }
+
   .sm\:w-96 {
     width: 24rem;
   }
@@ -1071,6 +1224,46 @@ video {
 
   .sm\:w-1\/2 {
     width: 50%;
+  }
+
+  .sm\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .sm\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .sm\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .sm\:w-\[120\%\] {
+    width: 120%;
+  }
+
+  .sm\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .sm\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .sm\:w-\[110\%\] {
+    width: 110%;
+  }
+
+  .sm\:w-\[100\%\] {
+    width: 100%;
   }
 
   .sm\:-translate-x-1\/2 {
@@ -1092,6 +1285,13 @@ video {
 
   .sm\:justify-center {
     justify-content: center;
+  }
+
+  @media (min-width: 640px) {
+
+    .sm\:sm\:justify-center {
+      justify-content: center;
+    }
   }
 
   .sm\:border-32 {
