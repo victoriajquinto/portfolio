@@ -23,7 +23,7 @@ const TopNav = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="absolute top-20 right-0 w-[20%] bg-brown text-white p-8 flex flex-col space-y-4 text-center rounded-md fade-menu">
+        <div className="absolute top-20 right-0 bg-brown text-white p-4 flex flex-col space-y-4 text-center rounded-tl-md rounded-bl-md fade-menu">
           <a href="#home" className="hover:text-gray-400" onClick={toggleMenu}>Home</a>
           <a href="#about" className="hover:text-gray-400" onClick={toggleMenu}>About</a>
           <a href="#work" className="hover:text-gray-400" onClick={toggleMenu}>Work</a>
