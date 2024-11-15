@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
       <div className="h:1/2 sm:h-full sm:w-1/2  sm:flex justify-center sm:justify-start sm:items-center ">
         <div className="p-4 sm:p-0 font-lato text-brown text-center sm:text-left text-xl sm:text-4xl">
-          <div className="m-auto pb-2 font-semibold">VICTORIA QUINTO</div>
+          <div className="m-auto pb-2 font-semibold sm:text-5xl">VICTORIA QUINTO</div>
           <div>
             &lt;&gt; a school psychologist
             <br />
