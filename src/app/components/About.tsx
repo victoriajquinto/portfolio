@@ -6,22 +6,25 @@ const About = () => {
       <div className="sm:relative sm:inset-y-0 text-center sm:left-3/4 sm:transform sm:-translate-x-1/2 text-xl sm:text-5xl font-bold py-10">ABOUT ME</div>
       <div className="sm:w-[70%]">
         <div className="text-xl sm:text-4xl text-left pb-10 px-4">I'm Victoria Quinto, a full-stack software engineer aiming to build useful projects, particularly for overlooked educators like myself.</div>
-        <div className="px-4 text-lg">
-          As a school psychologist-turned-software engineer, I leverage my deep understanding of human behavior and learning to craft intuitive and user-centric software solutions. Throughout my career, I've honed the ability to analyze complex problems from multiple perspectives, allowing me to design software applications that meet diverse needs. My time in education has ingrained in me a sense of empathy and a commitment to creating inclusive and accessible technology.
+        <div className="px-4 text-lg" style={{textAlign: 'justify'}}>
+          When I was a school psychologist, I was baffled at how much of time I spent manually typing out multi-page reports. I constantly thought to myself, "There HAS to be a better way." However, tools build for educators like me simply do not exist. While I LOVED my job and loved my students, my frustration with report-writing drove me to become a software engineer.
           <br />
           <br />
-          I thrive in collaborative environments where I can harness my excellent communication and teamwork skills to drive projects to success. Whether I'm debugging code or conducting user research, my diverse background enriches my approach.Let's connect and explore how my unique skill set can bring value to your projects. Looking forward to engaging with like-minded professionals in the tech community!
+          At my day job, I have the privilege building cutting edge technology enabling crypto subscriptions that work. The ingenuity goes to my boss, who is our amazing CTO and the mastermind of our product. He lets me build out smaller features for a better user experience.
+          <br />
+          <br />
+          At night, I throw my baby at my husband and build web tools specifically for school psychologists. I have high ambitions for my current project, and I have lots to learn to bring my ideas to life, so stay tuned!
+
+          Let's connect and explore how my unique skill set can bring value to your projects. Looking forward to engaging with like-minded professionals in the tech community!
           <br />
           <br />
           Other interests:
           <br />
-          &lt;&gt; plants. My house has become a forest
+          &lt;&gt; Interior design.
           <br />
-          &lt;&gt; interior design
+          &lt;&gt; Parenting. I’m a mom!
           <br />
-          &lt;&gt; parenting. I’m a mom!
-          <br />
-          &lt;&gt; faith and religion
+          &lt;&gt; Faith and religion.
       </div>
     </div>
   </div>
