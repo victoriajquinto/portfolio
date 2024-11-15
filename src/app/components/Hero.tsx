@@ -1,4 +1,3 @@
-import TopNav from './TopNav'
 import Image from 'next/image'
 import headshot from '../assets/headshot.jpeg'
 
@@ -6,9 +5,9 @@ const Hero = () => {
   return (
   <div
     className=" bg-[#ffd7c6] h-screen w-screen relative overflow-hidden hero-background"
+    id="home"
   >
-    <TopNav />
-    <div className="h-36 w-screen flex-col justify-between"></div>
+    <div className="h-20 w-screen flex-col justify-between"></div>
     <div className="fade-in-animation h-[calc(100vh-144px)] sm:flex ">
       <div className="h-1/2 sm:h-full sm:w-1/2 relative flex-col pt-10 flex sm:justify-center items-center">
         <div className="sm:absolute sm:inset-y-0 sm:left-1/2 sm:transform sm:-translate-x-1/2 sm:w-0.5 line-dark-to-light"></div>

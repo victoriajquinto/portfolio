@@ -4,7 +4,10 @@ import coinsubiocard from '../assets/coinsubiocard.jpeg'
 
 const Work = () => {
   return (
-    <div className="bg-[#fca986] h-max w-screen relative sm:flex p-4 overflow-hidden">
+    <div
+      className="bg-[#fca986] h-max w-screen relative sm:flex p-4 overflow-hidden"
+      id="work"
+    >
       <div className="sm:absolute sm:inset-y-0 sm:left-1/4 sm:transform sm:-translate-x-1/2 sm:w-0.5 line-light-to-dark"></div>
       <div className="sm:absolute sm:inset-y-0 sm:left-3/4 sm:transform sm:-translate-x-1/2 sm:w-0.5 line-dark-to-light"></div>
       <div className="relative h-full p-4">

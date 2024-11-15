@@ -7,12 +7,13 @@ import Footer from '@/app/components/Footer'
 
 export default function Home() {
   return (
-    <>
+    <div className="w-screen">
+      <TopNav />
       <Hero />
       <Work />
       <About />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }
