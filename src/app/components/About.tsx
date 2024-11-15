@@ -7,13 +7,13 @@ const About = () => {
       <div className="sm:w-[70%]">
         <div className="text-xl sm:text-4xl text-left pb-10 px-4">I'm Victoria Quinto, a full-stack software engineer aiming to build useful products, particularly for overlooked educators like myself.</div>
         <div className="px-4 text-lg" style={{textAlign: 'justify'}}>
-          When I was a school psychologist, I was baffled at how much of time I spent manually typing out multi-page reports. I constantly thought to myself, "There HAS to be a better way." However, tools build for educators like me simply do not exist. While I LOVED my job and loved my students, my frustration with report-writing drove me to become a software engineer.
+          When I was a school psychologist, I was baffled at how much of time I spent manually typing out multi-page reports. I constantly thought, "There HAS to be a better way." However, tools for educators like me simply do not exist. While I LOVED my job and loved my students, my frustration with report writing drove me to become a software engineer.
           <br />
           <br />
-          At my day job, I have the privilege building cutting edge technology enabling crypto subscriptions that work. The ingenuity goes to my boss, who is our amazing CTO and the mastermind of our product. He lets me build out smaller features for a better user experience.
+          At my day job, I have the privilege building cutting edge technology enabling crypto subscriptions that work. The ingenuity goes to my boss, the mastermind and CTO at Coinsub. I focus on building fullstack features that improve the API and user experience of our product.
           <br />
           <br />
-          At night, I throw my baby at my husband and build web tools specifically for school psychologists. I have high ambitions for my current project, and I have lots to learn to bring my ideas to life, so stay tuned!
+          At night, I build web tools specifically for school psychologists. I have high ambitions for my current project, and I have lots to learn to bring my ideas to life, so stay tuned!
 
           Let's connect and explore how my unique skill set can bring value to your projects. Looking forward to engaging with like-minded professionals in the tech community!
           <br />
