@@ -28,6 +28,9 @@ const TopNav = () => {
           <a href="#about" className="hover:text-gray-400" onClick={toggleMenu}>About</a>
           <a href="#work" className="hover:text-gray-400" onClick={toggleMenu}>Work</a>
           <a href="#contact" className="hover:text-gray-400" onClick={toggleMenu}>Contact</a>
+          <a href="./resume.pdf" download="Victoria_Quinto_Resume.pdf"
+          className="hover:text-gray-400" 
+          onClick={toggleMenu}>Resume</a>
         </div>
       )}
     </div>

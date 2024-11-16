@@ -3,7 +3,7 @@ const About = () => {
     <div className="about-background h-full sm:min-h-[300px] w-screen relative p-4 overflow-hidden font-lato text-brown"
     id="about">
       <div className="sm:absolute sm:inset-y-0 sm:left-3/4 sm:transform sm:-translate-x-1/2 sm:w-0.5 line-light-to-dark"></div>
-      <div className="sm:relative sm:inset-y-0 text-center sm:left-3/4 sm:transform sm:-translate-x-1/2 text-xl sm:text-5xl font-bold py-10">ABOUT ME</div>
+      <div className="sm:relative sm:inset-y-0 text-center sm:left-3/4 sm:transform sm:-translate-x-1/2 text-xl sm:text-5xl font-bold px-8 py-2 bg-white/50 w-fit rounded-full my-10">ABOUT ME</div>
       <div className="sm:w-[70%]">
         <div className="text-xl sm:text-4xl text-left pb-10 px-4">I'm Victoria Quinto, a full-stack software engineer aiming to build useful products, particularly for overlooked educators like myself.</div>
         <div className="px-4 text-lg" style={{textAlign: 'justify'}}>

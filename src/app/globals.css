@@ -24,6 +24,19 @@
     transform: translateX(0);
   }
 }
+@keyframes carousel {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-carousel {
+  display: flex;
+  animation: carousel 20s linear infinite; /* Adjust duration as needed */
+}
 
 .fade-in-animation {
   opacity: 0;

@@ -27,6 +27,15 @@ const Hero = () => {
             <br />
             &lt;&gt; building useful products
           </div>
+          <div className="my-4">
+            <a
+              href="/resume.pdf"
+              download="Victoria_Quinto_Resume.pdf"
+              className="bg-peach text-white text-lg py-2 px-4 rounded hover:bg-brown"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </div>
